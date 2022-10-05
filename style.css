@@ -1,0 +1,325 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+/* .navbar-easy nav {
+    /* position: fixed ; */
+
+
+.navbar-easy nav ol {
+    margin-top: 0px;
+    display: flex;
+    list-style-type: none;
+    font-family: 'Public Sans', sans-serif;
+    padding-left: 500px;
+    /* word-spacing: 40px; */
+    gap: 50px;
+    background-color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+
+    background-position: absolute;
+    height: 70px;
+
+}
+
+.navbar-easy nav ol li a {
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    /* Grayish Blue: hsl(233, 8%, 62%);
+ Light Grayish Blue: hsl(220, 16%, 96%);
+ Very Light Gray: hsl(0, 0%, 98%);
+  White hsl(0, 0%, 100%); hsl(220, 16%, 96%) */
+    /* hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%) */
+
+}
+
+.navbar-easy nav ol span {
+
+
+    /* hsl(233, 26%, 24%)hsl(192, 70%, 51%) */
+    /* width: 90px; */
+    /* height: 30px; */
+    /* position: absolute; */
+    padding-left: 220px;
+}
+
+.navbar-easy nav ol span li {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    height: 20px;
+    padding: 10px 15px 10px 15px;
+    /* padding-left: 5px; */
+
+
+    border-radius: 50px;
+    position: absolute;
+}
+
+.navbar-easy nav ol span li a {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.navbar-easy nav img {
+    margin-top: 20px;
+    margin-left: 100px;
+
+    position: absolute;
+}
+
+.next {
+    line-height: 15px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.next .next-h4 button {
+    /* padding: 2px; */
+    /* padding-bottom: 20px; */
+    font-family: 'Public Sans', sans-serif;
+    /* color: hsl(233, 26%, 24%); */
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+}
+
+.next .next-header {
+    padding-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+.next .next-paragraph {
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+
+/*{
+    
+float: right;
+    margin-left: 500px;
+    margin-top: 0%;
+    margin-bottom: 800px;
+   
+} */
+.next {
+    display: flex;
+    /* background-color: blue ; */
+    height: 70vh;
+
+}
+.next-home{
+   top: 90 !important;
+   padding: 0px 0px 0px 100px !important;
+   margin: 0 !important;
+
+}
+.next-box{
+    /* background-color: red; */
+    width: 50% !important;
+
+}
+/* .next-image{
+    /* width: 50%;
+    height: 50vh; */
+    /* background-color: yellow; */
+    /* background-image: url(images/bg-intro-desktop.svg); */
+    /* background-size: cover; */
+
+
+.next  img {
+    position: absolute;
+    /* background-color: aqua; */
+
+    width: 45%; 
+    /* height: 90vh; */
+    /* margin-left: 310px;
+    margin-bottom: 100px; */
+    /* top: 80px; */
+    background-image: url(images/bg-intro-desktop.svg);
+
+top: 15 !important;
+    background-size: cover;
+
+}
+
+.content2 {
+    padding-left: 100px;
+    padding-top: 80px;
+    background-color: hsl(220, 16%, 96%);
+    margin-top: 70px;
+}
+
+.content2 .content2-header {
+    font-family: 'Public Sans', sans-serif;
+    color: hsl(233, 26%, 24%);
+
+}
+
+.content2 .content2-paragraph {
+    color: hsl(233, 8%, 62%);
+    line-height: 15px;
+    padding-top: 15px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+
+/* content2-services css */
+
+
+.content2-services {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+
+.content2-services .content2-header2 {
+    padding-top: 20px;
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+.content2-services .content2-paragraph2 p {
+    line-height: 20px;
+    margin-top: 20px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 17px;
+    color: hsl(233, 8%, 62%);
+}
+
+/* money services */
+.footer-content {
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+
+.footer-content .footer-header {
+    padding-bottom: 80px;
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+.money-services {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 100px;
+
+}
+
+.money-services .image3 img {
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.money-services #image img {
+    height: 166.66px
+}
+
+.money-services .money-header1 {
+    color: hsl(233, 8%, 62%);
+    font-family: 'Public Sans', sans-serif;
+}
+
+.money-services .money-header2 {
+    color: hsl(233, 26%, 24%);
+    font-family: 'Public Sans', sans-serif;
+    line-height: 4px;
+}
+
+.money-services .money-paragraph {
+    padding-top: 16px;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+}
+
+.money-services .back {
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    border-radius: 0px 0px 10px 10px;
+    /* height: 166.66px; */
+    padding: 10px;
+    background-size: contain;
+    box-sizing: border-box;
+
+}
+
+.footer-nav {
+    background-color: hsl(233, 26%, 24%);
+    /* width: 99%; */
+    height: 40vh;
+}
+.links-footer div a{
+    text-decoration: none;
+
+}
+.links-footer{
+    display: flex;
+    gap: 200px;
+    margin-left: 320px;
+    color: hsl(0, 0%, 100%);
+    padding-top: 60px;
+}
+.links1-footer a {
+text-decoration: none;
+color: hsl(0, 0%, 100%);
+font-family: 'Public Sans', sans-serif;
+margin-top: 10px;
+
+
+}
+.links2-footer a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 10px;
+    padding-left: 90px;
+    
+    
+    }
+ .links1-footer div{
+    padding-top: 10px;
+ }
+ .links2-footer div{
+    padding-top: 10px;
+ }
+.last-footer button{
+
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+}
+.last-footer h6{
+    color: hsl(233, 8%, 62%) ;
+    font-size: 18px;
+}
+.footer-nav .logo-footer{
+    padding-top: 70px;
+    position: absolute;
+    padding-left: 50px;
+
+}
+.footer-nav .icon-footer{
+    padding-top: 20px;
+}
+
+    
